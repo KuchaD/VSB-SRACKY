@@ -1,0 +1,9 @@
+C:\git\VSB-SRACKY\NS\NS1\NS\bin\Debug\NS.exe.config
+C:\git\VSB-SRACKY\NS\NS1\NS\bin\Debug\NS.exe
+C:\git\VSB-SRACKY\NS\NS1\NS\bin\Debug\NS.pdb
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.csprojAssemblyReference.cache
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.Form1.resources
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.Properties.Resources.resources
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.csproj.GenerateResource.cache
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.exe
+C:\git\VSB-SRACKY\NS\NS1\NS\obj\Debug\NS.pdb
