@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{2EB53DE8-0282-4F5C-8720-41115262193A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkBP", "NeuralNetworkBP\NeuralNetworkBP.csproj", "{E4AD8827-0103-4398-B1B4-02FBE5488160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{5D588BA7-B761-4694-B802-BA6C505F204E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB53DE8-0282-4F5C-8720-41115262193A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB53DE8-0282-4F5C-8720-41115262193A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB53DE8-0282-4F5C-8720-41115262193A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB53DE8-0282-4F5C-8720-41115262193A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AD8827-0103-4398-B1B4-02FBE5488160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AD8827-0103-4398-B1B4-02FBE5488160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AD8827-0103-4398-B1B4-02FBE5488160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AD8827-0103-4398-B1B4-02FBE5488160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D588BA7-B761-4694-B802-BA6C505F204E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D588BA7-B761-4694-B802-BA6C505F204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D588BA7-B761-4694-B802-BA6C505F204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D588BA7-B761-4694-B802-BA6C505F204E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

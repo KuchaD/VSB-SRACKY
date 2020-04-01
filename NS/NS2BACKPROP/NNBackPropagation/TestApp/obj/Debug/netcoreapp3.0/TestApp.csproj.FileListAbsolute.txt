@@ -1,0 +1,16 @@
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.csprojAssemblyReference.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.AssemblyInfoInputs.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.AssemblyInfo.cs
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp.deps.json
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp.runtimeconfig.json
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp.runtimeconfig.dev.json
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/TestApp.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NNBackPropagation.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NNBackPropagation.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.csproj.CopyComplete
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NeuralNetworkBP.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NeuralNetworkBP.pdb

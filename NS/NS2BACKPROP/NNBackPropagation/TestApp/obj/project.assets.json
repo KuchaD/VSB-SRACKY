@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "NeuralNetworkBP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/NeuralNetworkBP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NeuralNetworkBP.dll": {}
+        }
+      },
+      "NNBackPropagation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/NNBackPropagation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NNBackPropagation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeuralNetworkBP/1.0.0": {
+      "type": "project",
+      "path": "../NeuralNetworkBP/NeuralNetworkBP.csproj",
+      "msbuildProject": "../NeuralNetworkBP/NeuralNetworkBP.csproj"
+    },
+    "NNBackPropagation/1.0.0": {
+      "type": "project",
+      "path": "../NNBackPropagation/NNBackPropagation.csproj",
+      "msbuildProject": "../NNBackPropagation/NNBackPropagation.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "NNBackPropagation >= 1.0.0",
+      "NeuralNetworkBP >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/dave/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/TestApp.csproj",
+      "projectName": "TestApp",
+      "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/TestApp.csproj",
+      "packagesPath": "/Users/dave/.nuget/packages/",
+      "outputPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/dave/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj": {
+              "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj"
+            },
+            "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/NNBackPropagation.csproj": {
+              "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/NNBackPropagation.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

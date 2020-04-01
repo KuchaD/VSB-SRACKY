@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dave/GIT/VSB-SRACKY/NS/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE.csproj": {}
+  },
+  "projects": {
+    "/Users/dave/GIT/VSB-SRACKY/NS/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dave/GIT/VSB-SRACKY/NS/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE.csproj",
+        "projectName": "BasicDriverNETCORE",
+        "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE.csproj",
+        "packagesPath": "/Users/dave/.nuget/packages/",
+        "outputPath": "/Users/dave/GIT/VSB-SRACKY/NS/BasicDriverNETCORE/BasicDriverNETCORE/BasicDriverNETCORE/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dave/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

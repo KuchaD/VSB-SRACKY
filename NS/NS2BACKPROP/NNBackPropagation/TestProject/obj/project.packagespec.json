@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestProject/TestProject.csproj",
+    "projectName": "TestProject",
+    "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestProject/TestProject.csproj",
+    "outputPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestProject/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj": {
+            "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "MSTest.TestFramework": {
+          "target": "Package",
+          "version": "[2.1.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

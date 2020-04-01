@@ -1,0 +1,8 @@
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/bin/Debug/netcoreapp3.0/NeuralNetworkBP.deps.json
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/bin/Debug/netcoreapp3.0/NeuralNetworkBP.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/bin/Debug/netcoreapp3.0/NeuralNetworkBP.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/obj/Debug/netcoreapp3.0/NeuralNetworkBP.csprojAssemblyReference.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/obj/Debug/netcoreapp3.0/NeuralNetworkBP.AssemblyInfoInputs.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/obj/Debug/netcoreapp3.0/NeuralNetworkBP.AssemblyInfo.cs
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/obj/Debug/netcoreapp3.0/NeuralNetworkBP.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/obj/Debug/netcoreapp3.0/NeuralNetworkBP.pdb

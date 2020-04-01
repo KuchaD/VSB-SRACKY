@@ -1,0 +1,8 @@
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/bin/Debug/netcoreapp3.0/NNBackPropagation.deps.json
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/bin/Debug/netcoreapp3.0/NNBackPropagation.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/bin/Debug/netcoreapp3.0/NNBackPropagation.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/obj/Debug/netcoreapp3.0/NNBackPropagation.csprojAssemblyReference.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/obj/Debug/netcoreapp3.0/NNBackPropagation.AssemblyInfoInputs.cache
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/obj/Debug/netcoreapp3.0/NNBackPropagation.AssemblyInfo.cs
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/obj/Debug/netcoreapp3.0/NNBackPropagation.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/obj/Debug/netcoreapp3.0/NNBackPropagation.pdb

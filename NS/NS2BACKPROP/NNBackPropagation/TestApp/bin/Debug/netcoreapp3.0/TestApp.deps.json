@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TestApp/1.0.0": {
+        "dependencies": {
+          "NNBackPropagation": "1.0.0",
+          "NeuralNetworkBP": "1.0.0"
+        },
+        "runtime": {
+          "TestApp.dll": {}
+        }
+      },
+      "NeuralNetworkBP/1.0.0": {
+        "runtime": {
+          "NeuralNetworkBP.dll": {}
+        }
+      },
+      "NNBackPropagation/1.0.0": {
+        "runtime": {
+          "NNBackPropagation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NeuralNetworkBP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NNBackPropagation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
