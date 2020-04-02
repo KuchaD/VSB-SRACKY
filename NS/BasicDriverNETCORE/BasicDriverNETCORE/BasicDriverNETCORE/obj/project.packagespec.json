@@ -17,7 +17,14 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj": {
+            "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NeuralNetworkBP/NeuralNetworkBP.csproj"
+          },
+          "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/NNBackPropagation.csproj": {
+            "projectPath": "/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/NNBackPropagation/NNBackPropagation.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

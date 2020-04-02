@@ -5,7 +5,10 @@
       <e p="BasicDriverNETCORE" t="IncludeRecursive">
         <e p="BasicDriverNETCORE.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DriverTrainer.cs" t="Include" />
         <e p="IDriver.cs" t="Include" />
+        <e p="LoadXML.cs" t="Include" />
+        <e p="NetDriver.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -19,6 +22,36 @@
       </e>
       <e p="BasicDriverNETCORE.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../../NS2BACKPROP/NNBackPropagation/NNBackPropagation" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="IActivationFunction.cs" t="Include" />
+      <e p="Neuron.cs" t="Include" />
+      <e p="NNBackPropagation.csproj" t="IncludeRecursive" />
+      <e p="NNetwork.cs" t="Include" />
+      <e p="NNLayer.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="NNBackPropagation.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="SigmoidFunction.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../NS2BACKPROP/NNBackPropagation/TestApp" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="LoadCSVMNIST.cs" t="Include" />
+      <e p="LoadXML.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="TestApp.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="TestApp.csproj" t="IncludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_BasicDriverNETCORE.756096412.00" t="ExcludeRecursive" />

@@ -5,6 +5,8 @@ using System.Text;
 
 namespace NNBackPropagation
 {
+
+    [Serializable]
     public class NNLayer
     {
 

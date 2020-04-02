@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Serialization;
 using NeuralNetworkBP.Interfaces;
 
 namespace NeuralNetworkBP
 {
+    [Serializable]
     public class Neuron : INeuron
     {
         public Guid id { get; set; }
+        [XmlElement]
         private double _output;
         public double bias { get; set; }
         public double Output
@@ -17,10 +20,11 @@ namespace NeuralNetworkBP
        
         public List<IConnection> Inputs { get; set; }
         public List<IConnection> Outputs { get; set; }
-        public double PreviousPartialDerivate { get; set; }
-        
+        public double PreviousPD { get; set; }
+        [XmlElement]
         private IActiovationFunction _actiovation;
 
+        public Neuron(){}
         public Neuron(IActiovationFunction actiovationFunction)
         {
             id = Guid.NewGuid();
@@ -39,9 +43,7 @@ namespace NeuralNetworkBP
         }
         public double CalculateOutput()
         {
-            if (bias == 0)
-                return Inputs.Select(x => x.Weight * x.GetOutput()).Sum();
-            
+
             return _actiovation.Activation(Inputs.Select(x => x.Weight * x.GetOutput()).Sum()+bias);
         }
 

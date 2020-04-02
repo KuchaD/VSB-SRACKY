@@ -1,16 +1,21 @@
 using System;
+using System.Xml.Serialization;
 using NeuralNetworkBP.Interfaces;
 
 namespace NeuralNetworkBP
 {
+    [Serializable]
     public class Connection : IConnection
     {
+        [XmlElement]
         private INeuron _fromNeuron;
+        [XmlElement]
         private INeuron _toNeuron;
 
         public double Weight { get; set; }
         public double PreviousWeight { get; set; }
 
+        public Connection(){}
         public Connection(INeuron from, INeuron to)
         {
             _fromNeuron = from;

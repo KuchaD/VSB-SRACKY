@@ -2,6 +2,44 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "Binaron.Serializer/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Binaron.Serializer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Binaron.Serializer.dll": {}
+        }
+      },
+      "ExtendedXmlSerializer/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LightInject": "6.2.0",
+          "NReco.LambdaParser": "1.0.10",
+          "Sprache": "2.2.0",
+          "System.Collections.Immutable": "1.6.0",
+          "System.Interactive": "4.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/ExtendedXmlSerializer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExtendedXmlSerializer.dll": {}
+        }
+      },
+      "LightInject/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/LightInject.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/LightInject.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/15.9.0": {
         "type": "package",
         "compile": {
@@ -472,6 +510,15 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NReco.LambdaParser/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NReco.LambdaParser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NReco.LambdaParser.dll": {}
+        }
+      },
       "NUnit/3.11.0": {
         "type": "package",
         "dependencies": {
@@ -515,6 +562,21 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Sprache/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Sprache.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sprache.dll": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -561,23 +623,13 @@
           "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
         }
       },
-      "System.Collections.Immutable/1.2.0": {
+      "System.Collections.Immutable/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Diagnostics.Debug": "4.0.11",
-          "System.Globalization": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Resources.ResourceManager": "4.0.1",
-          "System.Runtime": "4.1.0",
-          "System.Runtime.Extensions": "4.1.0",
-          "System.Threading": "4.0.11"
-        },
         "compile": {
-          "lib/netstandard1.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -863,6 +915,15 @@
           }
         }
       },
+      "System.Interactive/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.Interactive.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.dll": {}
+        }
+      },
       "System.IO/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1142,6 +1203,15 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1345,6 +1415,15 @@
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1487,6 +1566,10 @@
       "NeuralNetworkBP/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Binaron.Serializer": "2.0.2",
+          "ExtendedXmlSerializer": "3.0.0"
+        },
         "compile": {
           "bin/placeholder/NeuralNetworkBP.dll": {}
         },
@@ -1497,6 +1580,69 @@
     }
   },
   "libraries": {
+    "Binaron.Serializer/2.0.2": {
+      "sha512": "yUj36+CzszbFWq0YcvqFGeD8C1v87E132ehpXVXwLJy9SAl/5A1Wv6VKtnMTgzQJK0mpClCNkfz/1b8uKM8t5A==",
+      "type": "package",
+      "path": "binaron.serializer/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "binaron.serializer.2.0.2.nupkg.sha512",
+        "binaron.serializer.nuspec",
+        "lib/netstandard2.1/Binaron.Serializer.dll"
+      ]
+    },
+    "ExtendedXmlSerializer/3.0.0": {
+      "sha512": "J7mPU4ZTRGZKnXjYGjFh8puA0fk2SvMkRH0dFACU7bc5n6s/m9O3DegOqiBbSiVdHmc4oAesfVJ1z5gRgk8CDA==",
+      "type": "package",
+      "path": "extendedxmlserializer/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Logo.png",
+        "extendedxmlserializer.3.0.0.nupkg.sha512",
+        "extendedxmlserializer.nuspec",
+        "lib/net452/ExtendedXmlSerializer.dll",
+        "lib/net452/ExtendedXmlSerializer.pdb",
+        "lib/net452/ExtendedXmlSerializer.xml",
+        "lib/netstandard2.0/ExtendedXmlSerializer.dll",
+        "lib/netstandard2.0/ExtendedXmlSerializer.pdb",
+        "lib/netstandard2.0/ExtendedXmlSerializer.xml"
+      ]
+    },
+    "LightInject/6.2.0": {
+      "sha512": "cCLRFkzA+qkfroKKDjvgKQCY7fywT9WEOe/rjYqDnOUBbpDSkIqdPkaDcCvn7oQFC3gNuxJE8cdd20D6Ka7Crw==",
+      "type": "package",
+      "path": "lightinject/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/LightInject.dll",
+        "lib/net452/LightInject.pdb",
+        "lib/net452/LightInject.xml",
+        "lib/net46/LightInject.dll",
+        "lib/net46/LightInject.pdb",
+        "lib/net46/LightInject.xml",
+        "lib/netcoreapp2.0/LightInject.dll",
+        "lib/netcoreapp2.0/LightInject.pdb",
+        "lib/netcoreapp2.0/LightInject.xml",
+        "lib/netstandard1.1/LightInject.dll",
+        "lib/netstandard1.1/LightInject.pdb",
+        "lib/netstandard1.1/LightInject.xml",
+        "lib/netstandard1.3/LightInject.dll",
+        "lib/netstandard1.3/LightInject.pdb",
+        "lib/netstandard1.3/LightInject.xml",
+        "lib/netstandard1.6/LightInject.dll",
+        "lib/netstandard1.6/LightInject.pdb",
+        "lib/netstandard1.6/LightInject.xml",
+        "lib/netstandard2.0/LightInject.dll",
+        "lib/netstandard2.0/LightInject.pdb",
+        "lib/netstandard2.0/LightInject.xml",
+        "lightinject.6.2.0.nupkg.sha512",
+        "lightinject.nuspec"
+      ]
+    },
     "Microsoft.CodeCoverage/15.9.0": {
       "sha512": "oherNadUtHKqFQbtdRKXgPvZVWyGkOeS83pFWT864587npS7JIFWIJ/LJV0c25cWNkCytn2S9XGSSkKscnNFAQ==",
       "type": "package",
@@ -2221,6 +2367,25 @@
         "tools/install.ps1"
       ]
     },
+    "NReco.LambdaParser/1.0.10": {
+      "sha512": "46m2EPyqMt7KHkf7IgnDcKyuDQshJrQwqzes7oWkmQBmjzUuFZN5PXblTf3DfCJK6J3TBrR47dEd3TqeQF1T9A==",
+      "type": "package",
+      "path": "nreco.lambdaparser/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.3/NReco.LambdaParser.dll",
+        "lib/netstandard1.3/NReco.LambdaParser.xml",
+        "lib/netstandard2.0/NReco.LambdaParser.dll",
+        "lib/netstandard2.0/NReco.LambdaParser.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/NReco.LambdaParser.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/NReco.LambdaParser.xml",
+        "lib/portable-net45+win8+wp8+wpa81/NReco.LambdaParser.dll",
+        "lib/portable-net45+win8+wp8+wpa81/NReco.LambdaParser.xml",
+        "nreco.lambdaparser.1.0.10.nupkg.sha512",
+        "nreco.lambdaparser.nuspec"
+      ]
+    },
     "NUnit/3.11.0": {
       "sha512": "BzGk+u02RCrysmLlSzD+okxzMQ8JRF4eFC/qijDJ8Y/FBdTrTkxkQyTFsYkG1o++pr7QpFAE4VDXDqIfZ/gBAg==",
       "type": "package",
@@ -2287,6 +2452,29 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Sprache/2.2.0": {
+      "sha512": "yLt63Df6Px5ASLMdXkJ2Kg6Pwui+sGQeOnUimW1DDZqST4cVdJcejtxgTzgai0yR1d00uEMPYCd0SQHfFtGiTA==",
+      "type": "package",
+      "path": "sprache/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Sprache.dll",
+        "lib/net35/Sprache.xml",
+        "lib/net40/Sprache.dll",
+        "lib/net40/Sprache.xml",
+        "lib/net45/Sprache.dll",
+        "lib/net45/Sprache.xml",
+        "lib/netstandard1.0/Sprache.dll",
+        "lib/netstandard1.0/Sprache.xml",
+        "lib/netstandard2.0/Sprache.dll",
+        "lib/netstandard2.0/Sprache.xml",
+        "lib/sl5/Sprache.dll",
+        "lib/sl5/Sprache.xml",
+        "sprache.2.2.0.nupkg.sha512",
+        "sprache.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -2477,21 +2665,27 @@
         "system.collections.concurrent.nuspec"
       ]
     },
-    "System.Collections.Immutable/1.2.0": {
-      "sha512": "Cma8cBW6di16ZLibL8LYQ+cLjGzoKxpOTu/faZfDcx94ZjAGq6Nv5RO7+T1YZXqEXTZP9rt1wLVEONVpURtUqw==",
+    "System.Collections.Immutable/1.6.0": {
+      "sha512": "+aL946rTSJyo4PqstwsVZ5RBfaxfkIx+nTMfpmaxzorqgifRJwndBZhXPWNWGJpys7cQ1/vCvilYN9ugM05JFA==",
       "type": "package",
-      "path": "system.collections.immutable/1.2.0",
+      "path": "system.collections.immutable/1.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
         "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
-        "system.collections.immutable.1.2.0.nupkg.sha512",
-        "system.collections.immutable.nuspec"
+        "system.collections.immutable.1.6.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
@@ -3311,6 +3505,29 @@
         "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll",
         "system.globalization.extensions.4.3.0.nupkg.sha512",
         "system.globalization.extensions.nuspec"
+      ]
+    },
+    "System.Interactive/4.0.0": {
+      "sha512": "wZY3/hV80Sa4UI59RTFqcohfzZ8P+Ny9jdlm2tXVssdqiKvC1FmCQANq3QP+sOXsDvOH0Ci3/vcFlbh/tz9JZg==",
+      "type": "package",
+      "path": "system.interactive/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Interactive.dll",
+        "lib/net45/System.Interactive.xml",
+        "lib/netstandard1.0/System.Interactive.dll",
+        "lib/netstandard1.0/System.Interactive.xml",
+        "lib/netstandard2.0/System.Interactive.dll",
+        "lib/netstandard2.0/System.Interactive.xml",
+        "ref/netcoreapp2.0/System.Interactive.dll",
+        "ref/netcoreapp2.0/System.Interactive.xml",
+        "ref/netstandard1.0/System.Interactive.dll",
+        "ref/netstandard1.0/System.Interactive.xml",
+        "ref/netstandard2.1/System.Interactive.dll",
+        "ref/netstandard2.1/System.Interactive.xml",
+        "system.interactive.4.0.0.nupkg.sha512",
+        "system.interactive.nuspec"
       ]
     },
     "System.IO/4.3.0": {
@@ -4210,6 +4427,31 @@
         "system.runtime.nuspec"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "sha512": "HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -5055,6 +5297,50 @@
         "ref/xamarinwatchos10/_._",
         "system.threading.threadpool.4.3.0.nupkg.sha512",
         "system.threading.threadpool.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Xml.ReaderWriter/4.3.0": {

@@ -1,13 +1,16 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using NeuralNetworkBP.Interfaces;
 
 namespace NeuralNetworkBP
 {
+    [Serializable]
     public class NeuralLayer
     {
         public List<INeuron> Neurons;
 
+        public NeuralLayer(){}
         public NeuralLayer(List<INeuron> neurons)
         {
             Neurons = neurons;

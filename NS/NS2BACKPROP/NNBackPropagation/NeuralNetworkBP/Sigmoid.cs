@@ -3,6 +3,7 @@ using NeuralNetworkBP.Interfaces;
 
 namespace NeuralNetworkBP
 {
+    [Serializable]
     public class Sigmoid : IActiovationFunction
     {
         public double Activation(double Input)

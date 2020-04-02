@@ -14,3 +14,10 @@
 /Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/obj/Debug/netcoreapp3.0/TestApp.pdb
 /Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NeuralNetworkBP.dll
 /Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NeuralNetworkBP.pdb
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/ExtendedXmlSerializer.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/LightInject.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/NReco.LambdaParser.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/Sprache.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/System.Collections.Immutable.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/System.Interactive.dll
+/Users/dave/GIT/VSB-SRACKY/NS/NS2BACKPROP/NNBackPropagation/TestApp/bin/Debug/netcoreapp3.0/Binaron.Serializer.dll

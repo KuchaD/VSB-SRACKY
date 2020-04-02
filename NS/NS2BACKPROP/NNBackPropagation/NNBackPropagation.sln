@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkBP", "NeuralNe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{5D588BA7-B761-4694-B802-BA6C505F204E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNBackPropagation", "NNBackPropagation\NNBackPropagation.csproj", "{4DA84145-D070-46FB-9587-87E1A24D181F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5D588BA7-B761-4694-B802-BA6C505F204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D588BA7-B761-4694-B802-BA6C505F204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D588BA7-B761-4694-B802-BA6C505F204E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA84145-D070-46FB-9587-87E1A24D181F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA84145-D070-46FB-9587-87E1A24D181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA84145-D070-46FB-9587-87E1A24D181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA84145-D070-46FB-9587-87E1A24D181F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -3,6 +3,7 @@ using NeuralNetworkBP.Interfaces;
 
 namespace NeuralNetworkBP
 {
+    [Serializable]
     public class InputConnection : IConnection
     {
         public double Weight { get; set; }
@@ -12,6 +13,7 @@ namespace NeuralNetworkBP
         {
             return Output;
         }
+        public InputConnection(){}
         public InputConnection(double value)
         {
             Output = value;

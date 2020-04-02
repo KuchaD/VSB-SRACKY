@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NeuralNet xmlns:sys="https://extendedxmlserializer.github.io/system" _learning_rate="0.5">
+  <Layers Capacity="4">
+    <NeuralLayer xmlns="clr-namespace:NeuralNetworkBP;assembly=NeuralNetworkBP">
+      <Neurons Capacity="4">
+        <Neuron id="35d5a358-a26d-4432-a9de-7d82191a39bd" bias="0" PreviousPD="0">
+          <Inputs Capacity="4">
+            <InputConnection Weight="1" Output="0.05" PreviousWeight="1" />
+          </Inputs>
+          <Outputs Capacity="4">
+            <Connection Weight="0.15" PreviousWeight="0" />
+            <Connection Weight="0.25" PreviousWeight="0" />
+          </Outputs>
+        </Neuron>
+        <Neuron id="221dc9b4-f67e-4fc6-91a8-486a15cf15c1" bias="0" PreviousPD="0">
+          <Inputs Capacity="4">
+            <InputConnection Weight="1" Output="0.1" PreviousWeight="1" />
+          </Inputs>
+          <Outputs Capacity="4">
+            <Connection Weight="0.2" PreviousWeight="0" />
+            <Connection Weight="0.3" PreviousWeight="0" />
+          </Outputs>
+        </Neuron>
+      </Neurons>
+    </NeuralLayer>
+    <NeuralLayer xmlns="clr-namespace:NeuralNetworkBP;assembly=NeuralNetworkBP">
+      <Neurons Capacity="4">
+        <Neuron id="38f29a97-9bf2-474e-80bb-693c56979fb9" bias="0.35" PreviousPD="0">
+          <Inputs Capacity="4">
+            <Connection Weight="0.15" PreviousWeight="0" />
+            <Connection Weight="0.2" PreviousWeight="0" />
+          </Inputs>
+          <Outputs Capacity="4">
+            <Connection Weight="0.4" PreviousWeight="0" />
+            <Connection Weight="0.5" PreviousWeight="0" />
+          </Outputs>
+        </Neuron>
+        <Neuron id="25db85db-fde1-4fef-9b7e-d637be82c98f" bias="0.35" PreviousPD="0">
+          <Inputs Capacity="4">
+            <Connection Weight="0.25" PreviousWeight="0" />
+            <Connection Weight="0.3" PreviousWeight="0" />
+          </Inputs>
+          <Outputs Capacity="4">
+            <Connection Weight="0.45" PreviousWeight="0" />
+            <Connection Weight="0.55" PreviousWeight="0" />
+          </Outputs>
+        </Neuron>
+      </Neurons>
+    </NeuralLayer>
+    <NeuralLayer xmlns="clr-namespace:NeuralNetworkBP;assembly=NeuralNetworkBP">
+      <Neurons Capacity="4">
+        <Neuron id="07d0f1b8-9189-40ca-ac1f-c5201de5afe0" bias="0.6" PreviousPD="0">
+          <Inputs Capacity="4">
+            <Connection Weight="0.4" PreviousWeight="0" />
+            <Connection Weight="0.45" PreviousWeight="0" />
+          </Inputs>
+        </Neuron>
+        <Neuron id="ce00ea3a-66d4-4a6d-9c3d-c7f6c1c42f44" bias="0.6" PreviousPD="0">
+          <Inputs Capacity="4">
+            <Connection Weight="0.5" PreviousWeight="0" />
+            <Connection Weight="0.55" PreviousWeight="0" />
+          </Inputs>
+        </Neuron>
+      </Neurons>
+    </NeuralLayer>
+  </Layers>
+</NeuralNet>

@@ -2,6 +2,7 @@ using System;
 
 namespace NNBackPropagation
 {
+    [Serializable]
     public class SigmoidFunction : IActivationFunction
     {
         public double Activation(double Input)

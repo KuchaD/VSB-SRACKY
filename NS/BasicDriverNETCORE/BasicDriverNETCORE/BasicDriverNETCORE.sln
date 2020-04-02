@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDriverNETCORE", "BasicDriverNETCORE\BasicDriverNETCORE.csproj", "{28E1B608-7B75-4E69-8A9B-BA7910CA94A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NNBackPropagation", "..\..\NS2BACKPROP\NNBackPropagation\NNBackPropagation\NNBackPropagation.csproj", "{DC0757A7-87FF-4A7B-AB4F-00AA6CBC065B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "..\..\NS2BACKPROP\NNBackPropagation\TestApp\TestApp.csproj", "{83C1D380-F30F-47F2-83EF-546047B25FB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{28E1B608-7B75-4E69-8A9B-BA7910CA94A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E1B608-7B75-4E69-8A9B-BA7910CA94A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E1B608-7B75-4E69-8A9B-BA7910CA94A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0757A7-87FF-4A7B-AB4F-00AA6CBC065B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0757A7-87FF-4A7B-AB4F-00AA6CBC065B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0757A7-87FF-4A7B-AB4F-00AA6CBC065B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0757A7-87FF-4A7B-AB4F-00AA6CBC065B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C1D380-F30F-47F2-83EF-546047B25FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C1D380-F30F-47F2-83EF-546047B25FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C1D380-F30F-47F2-83EF-546047B25FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C1D380-F30F-47F2-83EF-546047B25FB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

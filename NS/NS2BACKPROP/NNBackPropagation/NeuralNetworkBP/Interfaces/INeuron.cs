@@ -11,7 +11,7 @@ namespace NeuralNetworkBP.Interfaces
         List<IConnection> Inputs { get; set; }
         List<IConnection> Outputs { get; set; }
         double bias { get; set; }
-        double PreviousPartialDerivate { get; set; }
+        double PreviousPD { get; set; }
         double CalculatePDOutput();
         double CalculateOutput();
         void Execute();

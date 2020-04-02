@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 namespace NNBackPropagation
 {
+    [Serializable]
     public class Neuron
     {
-        public List<double> Weights { get; private set; } = new List<double>();
+        public List<double> Weights { get; set; } = new List<double>();
+        public List<double> PrevioseWeights { get; set; } = new List<double>();
         private List<double> _inputs;
         public double bias { get; set; }
         public double Output{ get; private set; }
@@ -35,6 +37,7 @@ namespace NNBackPropagation
             for (int i = 0; i < numInput; i++)
             {
                 Weights.Add(random.NextDouble());
+                PrevioseWeights.Add(0);
             }
         }
         
@@ -59,7 +62,7 @@ namespace NNBackPropagation
                 sum += _inputs[i] * Weights[i];
             }
 
-            return sum+ bias;
+            return sum + bias;
         }
 
      
@@ -89,6 +92,11 @@ namespace NNBackPropagation
         
         public double CalculatePDWeight(int index) {
             return  _inputs[index];
+        }
+
+        public void SetWeight(double value,int index)
+        {
+            Weights[index] = value ;
         }
     }
 }

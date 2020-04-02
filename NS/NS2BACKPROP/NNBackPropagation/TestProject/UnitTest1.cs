@@ -98,6 +98,27 @@ namespace Tests
         }
 
         [Test]
+        public void SaveLoadXML()
+        {
+           
+            NN.SerializationToXML("Save.xml");
+            NeuralNet NNnew = new NeuralNet();
+            
+            NNnew.DeserializeFromXML("Save.xml");
+
+        }
+        [Test]
+        public void SaveLoadBin()
+        {
+           
+            NeuralNet.SerializeBin("Save.bin",NN);
+            NeuralNet NNnew = new NeuralNet();
+            
+            NNnew = NeuralNet.DeserializeBin("Save.bin");
+            //Assert.Equals(NN, NNnew);
+
+        }
+        [Test]
         public void Test1()
         {
             List<double[]> training_set = new List<double[]>();
@@ -106,7 +127,7 @@ namespace Tests
             List<double[]> R = new List<double[]>();
             R.Add(new double[] {0.01,0.99});
             
-            var output = NN.Forward(new double[] {0.05, 0.10}.ToList());
+            var output = NN.Forward(new double[] {0.05, 0.10});
             //NN.Train(training_set.ToArray(),R.ToArray());
             
             Assert.True(output[0].ToString("F") == "0.75");
