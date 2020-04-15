@@ -22,7 +22,7 @@ namespace BasicDriverNETCORE
             while (!start)
             {
                 Console.WriteLine("Driver Manager");
-                Console.WriteLine($"Setting Host: {host} , Port: {port}, race name {raceConnector} , cartype{carType ?? " not set"}");
+                Console.WriteLine($"Setting Host: {host} , Port: {port}, race name {raceName} , cartype{carType ?? " not set"}");
                 Console.WriteLine();
                 Console.WriteLine("1. Start");
                 Console.WriteLine("2. Train");
@@ -62,7 +62,7 @@ namespace BasicDriverNETCORE
                         driverName = YesNoResultMenu("Do you want set driveName?", "basic_client") ?? driverName;
                         break;
                     case "4":
-                        var modelpath = YesNoResultMenu("Do you want load modelPath? ", null);
+                        var modelpath = YesNoResultMenu("Do you want load modelPath? ", "/Users/dave/Desktop/model.bin");
                         if (modelpath == null)
                             break;
                         else
@@ -75,53 +75,6 @@ namespace BasicDriverNETCORE
                 }
             }
             
-            /*
-            if (args.Length == 0)
-            {
-                raceConnector = new RaceConnector(host, port, null);
-                raceConnector.setDriver(new NetDriver());
-                raceConnector.getDriver().Train("/Users/dave/Desktop/testauto2.txt",20000);
-               
-            }
-
-            if (args.Length == 5)
-            {
-                
-                host = args[0];
-                port = int.Parse(args[1]);
-                raceName = args[2];
-                driverName = args[3];
-                string = args[4];
-                
-                raceConnector = new RaceConnector(host, port, null);
-            }
-            
-            if (args.Length < 4) {
-                // kontrola argumentu programu
-                raceConnector = new RaceConnector(host, port, null);
-                Console.WriteLine("argumenty: server port nazev_zavodu jmeno_ridice [typ_auta]");
-                List<String> raceList =  raceConnector.listRaces();
-                raceName = raceList[new Random().Next(raceList.Count ) ];
-                List<String> carList =  raceConnector.listCars(raceName);
-                carType = carList[new Random().Next(carList.Count)];
-                driverName += "_" + carType;
-                //			host = JOptionPane.showInputDialog("Host:", host);
-                //			port = Integer.parseInt(JOptionPane.showInputDialog("Port:", Integer.toString(port)));
-                //			raceName = JOptionPane.showInputDialog("Race name:", raceName);
-                //			driverName = JOptionPane.showInputDialog("Driver name:", driverName);
-            } else {
-            
-                // nacteni parametu
-                host = args[0];
-                port = int.Parse(args[1]);
-                raceName = args[2];
-                driverName = args[3];
-                if(args.Length > 4){
-                    carType = args[4];
-                }
-                raceConnector = new RaceConnector(host, port, null);
-            }
-            */
             
             
           

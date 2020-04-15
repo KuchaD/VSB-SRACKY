@@ -133,35 +133,16 @@ namespace TestApp
             csv.Read("train.csv");
             
             NNetwork NN = new NNetwork(784,new int[]{50},10,0.1,new SigmoidFunction());
-
-            List<double[]> exoutput = new List<double[]>();
-            var outt = csv.Images.Select(x => x.Item2).ToArray();
-            for (int i = 0; i < outt.Length; i++)
-            {
-                double[] ex = new double[10];
-                for (int j = 0; j < 10; j++)
-                {
-                    if (j.ToString() == outt[i])
-                    {
-                        ex[j] = 1;
-                    }
-                    else
-                        ex[j] = 0;
-                }
-                
-                exoutput.Add(ex);
-            }
-
-            var test = csv.Images.Select(x => x.Item1).ToList();
+            
             for (int j = 0; j < 1000; ++j)
             {
-                for (int k = 0; k < test.Count; ++k)
-                    NN.Train(test[k].ToList(), exoutput[k].ToList());
+                for (int k = 0; k < csv.Images.Count; ++k)
+                    NN.Train(csv.Images[k].Item1.ToList(), new double[]{0,0}.ToList());
             }
             
                 for (int i = 0; i < 10; i++)
                 {
-                    var outputs = NN.Forward(test[i].ToList());
+                    var outputs = NN.Forward(csv.Images[i].Item1.ToList());
                     
                     Console.Write(" == ");
                     foreach (var output in csv.Images[i].Item2)
